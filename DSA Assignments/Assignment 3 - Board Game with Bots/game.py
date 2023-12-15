@@ -8,10 +8,6 @@
 #   https://opengameart.org/content/rotating-crystal-animation-8-step,
 #   https://creativecommons.org/licenses/by/3.0/
 
-# LINK PART C FUNCTION EXPLANATION (YOUTUBE) - https://youtu.be/8P7K_g-BOTw?feature=shared
-# NOTE: Because of the video limit of 3 minutes, I did manage to explain the main functions I have added but
-# I still added other small extra functions which were not explained in video because of time limit.
-
 # Import necessary libraries and modules
 import pygame
 import sys
