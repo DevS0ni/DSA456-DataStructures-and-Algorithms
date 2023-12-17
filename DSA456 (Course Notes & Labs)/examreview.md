@@ -229,6 +229,7 @@ Draw the result of each tree after a value is removed
 
 ```
 Solution-10(B):
+
 After Removal 10-
     80
    /  \
@@ -236,51 +237,139 @@ After Removal 10-
  / \   / \
 60 75 80  90
 
+After Removal 70-
+    80
+   /  \
+  75   85
+ /     / \
+60    80  90
+
+After Removal 40-
+    80
+   /  \
+  75   85
+ /       \
+60       90
 ```
 
-**11.**
-
-Create a min heap (smaller value, higher priority) by inserting these values in order given: 
-
+**11.** Create a min heap (smaller value, higher priority) by inserting these values in order given: 
 40, 30, 10, 60, 50, 70, 20, 35, 65, 5, 7, 22, 15
 Draw the result of each the tree after each insertion.
 
-**11b.** 
+```
+Solution-11:
+        5
+       / \
+     15   10
+    / \   / \
+   30 60 70  20
+  / \
+ 35  65
+```
 
-perform remove() 3 times from your heap in 11 and draw the results.
+**11b.** perform remove() 3 times from your heap in 11 and draw the results.
+```
+Solution-11(B):
+--After Removal 5-
+        10
+       / \
+     15   20
+    / \   / \
+   30 60 70  65
+  / 
+ 35
 
-**12.**
+--After Removal 10-
+        15
+       / \
+     30   20
+    / \   / \
+   35 60 70  65
 
-Create an AVL tree by adding the following numbers to these trees in order given as:
+--After Removal 15-
+        20
+       / \
+     30   65
+    / \   /
+   35 60 70
+```
 
+**12.** Create an AVL tree by adding the following numbers to these trees in order given as:
 80, 70, 60, 50, 40, 30, 20, 10, 35, 45, 43
-
 Draw the result of each the tree after each insertion.
 
-**13.**
+```
+Solution-12:
+        50
+       /  \
+      30   70
+     / \   / \
+    20 40 60  80
+   /
+  10
+```
 
-Create a Red-Black tree by adding the following numbers to these trees in order given as:
-
+**13.** Create a Red-Black tree by adding the following numbers to these trees in order given as:
 10, 20, 30, 40, 50, 60, 70, 80, 46, 56, 44, 48, 49
-
 Draw the result of each the tree after each insertion.
 
-**14.**
+```
+Solution-13:
+Bl - black
+R  - red
+        40(Bl)
+       /    \
+    20(R)   60(R)
+   /  \     /   \
+  10(B) 30(B) 50(B) 80(B)
+           /       /
+         45(R)   70(R)
+                   \
+                   75(R)
+```
 
-Create a 2-3 tree by adding the following numbers to these trees in order given as:
-
+**14.** Create a 2-3 tree by adding the following numbers to these trees in order given as:
 80, 70, 60, 50, 40, 30, 20, 65, 62, 10, 25, 21, 22
-
 Draw the result of each the tree after each insertion.
- 
-**15.**
 
-Suppose you are given the list: [15, 12, 14, 11, 10, 9, 7, 5, 2, 1].  
+```
+Solution-14:
+        30
+       /  \
+     20,40 60
+    / | \
+   10 25 45,62
+  /   |    \
+ 5   21,22   80
+```
+ 
+**15.** Suppose you are given the list: [15, 12, 14, 11, 10, 9, 7, 5, 2, 1].  
 Draw the complete binary tree associated with the list. 
 
-**15b.**
+```
+Solution-15:
+        15
+       /  \
+      12   14
+     / \   / \
+    11  10 9   7
+   / \
+  5   2
+```
 
-Make heap in place using the heapify algorithm on the list in part 13a to form a **min-heap**.  Draw the final heap and state the final list created from the heapify routine.  
+**15b.** Make heap in place using the heapify algorithm on the list in part 13a to form a **min-heap**.  
+Draw the final heap and state the final list created from the heapify routine. 
+
+```
+Solution-15(B):
+        2
+       / \
+      5   9
+     / \   \
+   10  12   14
+  / \
+ 15   11
+```
 
 **16.** Given the following BST class declaration
 
