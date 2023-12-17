@@ -1,27 +1,4 @@
-DSA456 - Data Structures and Algorithms - Fall 2023 - all sections
-
-## Professor Info
-
-
-#### Rachida Amjoun
-* Email:rachida.amjoun@senecacollege.ca
-* Meetings: by appointment using MS Teams
-
-#### Reza Khojasteh
-* Email: reza.khojasteh@senecacollege.ca
-* Meetings: by appointment, in-person, and during office hours
-
-#### Dilli Sharma
-* Email: dilli.sharma@senecacollege.ca
-* Meetings: by appointment, in-person, and during office hours
-
-#### Abdulla Hammad
-* Email: abdulla.hammad@senecacollege.ca
-* Meetings: by appointment, in-person, and during office hours
-
-#### Ibrahim Mohammed Sayem
-
-
+DSA456 - Data Structures and Algorithms
 
 | Approved By | |
 |---|---|
@@ -84,18 +61,18 @@ Unless otherwise stated, the links below are linked to the start of the chapter 
 
 | Week       | Topics and Reading                                                                                                                                                                                                                                                                            | Assessment Due and Weight             |
 |------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|
-| week 1     | [Introduction](https://seneca-ictoer.github.io/data-structures-and-algorithms/), [Intro to Python](https://seneca-ictoer.github.io/data-structures-and-algorithms/A-Python/intro-to-python)                                                                                                   | Lab 0 (Due: Sep. 17, 2023) - 0%        |
-| week 2     | [Analysis of Algorithms](https://seneca-ictoer.github.io/data-structures-and-algorithms/B-Algorithms-Analysis/intro-to-analysis), [Asymptotic Notation](https://seneca-ictoer.github.io/data-structures-and-algorithms/B-Algorithms-Analysis/asymptotic-notation)                             | Lab 1 (Due: Sep. 17, 2023)- ~1.67%,    |
-| week 3     | [Recursion](https://seneca-ictoer.github.io/data-structures-and-algorithms/C-Recursion/intro-to-recursion), [Searching, and Sorting]()                                                                                                                                                        | Lab 2 (Due: Sep. 24, 2023) - ~1.67%    |
-| week 4     | [Searching and Sorting](https://seneca-ictoer.github.io/data-structures-and-algorithms/D-Searching-And-Sorting/intro-to-search-and-sort),  [Lists](https://seneca-ictoer.github.io/data-structures-and-algorithms/E-Lists/intro-to-lists),                                                    | lab 3 (Due: Oct. 1, 2023) - ~1.67%    |
-| week 5     | [Lists](https://seneca-ictoer.github.io/data-structures-and-algorithms/E-Lists/intro-to-lists),[Stacks, and Queues](https://seneca-ictoer.github.io/data-structures-and-algorithms/E-Lists/stacks-and-queues)                                                                                 | Lab 4 (Due: Oct. 8, 2023)- ~1.67%    |
+| week 1     | [Introduction](https://seneca-ictoer.github.io/data-structures-and-algorithms/), [Intro to Python](https://seneca-ictoer.github.io/data-structures-and-algorithms/A-Python/intro-to-python)                                                                                                   | Lab 0 - 0%        |
+| week 2     | [Analysis of Algorithms](https://seneca-ictoer.github.io/data-structures-and-algorithms/B-Algorithms-Analysis/intro-to-analysis), [Asymptotic Notation](https://seneca-ictoer.github.io/data-structures-and-algorithms/B-Algorithms-Analysis/asymptotic-notation)                             | Lab 1 - ~1.67%,    |
+| week 3     | [Recursion](https://seneca-ictoer.github.io/data-structures-and-algorithms/C-Recursion/intro-to-recursion), [Searching, and Sorting]()                                                                                                                                                        | Lab 2 - ~1.67%    |
+| week 4     | [Searching and Sorting](https://seneca-ictoer.github.io/data-structures-and-algorithms/D-Searching-And-Sorting/intro-to-search-and-sort),  [Lists](https://seneca-ictoer.github.io/data-structures-and-algorithms/E-Lists/intro-to-lists),                                                    | lab 3 - ~1.67%    |
+| week 5     | [Lists](https://seneca-ictoer.github.io/data-structures-and-algorithms/E-Lists/intro-to-lists),[Stacks, and Queues](https://seneca-ictoer.github.io/data-structures-and-algorithms/E-Lists/stacks-and-queues)                                                                                 | Lab 4 - ~1.67%    |
 | week 6     | [Tables](https://seneca-ictoer.github.io/data-structures-and-algorithms/F-Tables/intro-to-tables)                                                                                                                                                                                             | A1 - 10%                              |
 | week 7     | Cleanup, Review and, Test 1                                                                                                                                                                                                                                                                   | Test 1 - 30%                          |
 | break week | ...                                                                                                                                                                                                                                                                                           | ...                                   |... |... |
 | week 8     | [Graphs](https://seneca-ictoer.github.io/data-structures-and-algorithms/G-Graphs/intro-to-graphs)                                                                                                                                                                                             |                                       |
 | week 9     | [Graphs](https://seneca-ictoer.github.io/data-structures-and-algorithms/G-Graphs/intro-to-graphs),[Trees](https://seneca-ictoer.github.io/data-structures-and-algorithms/H-Trees/intro-to-trees)                                                                                              | A2 - 12%                              |
-| week 10    | [Heaps, Heapsort](https://seneca-ictoer.github.io/data-structures-and-algorithms/I-Heaps/intro-to-heaps)                                                                                                                                                                                      | Lab 5 (Due: Nov. 19 )- ~1.67%    |
-| week 11    | [Binary search trees](https://seneca-ictoer.github.io/data-structures-and-algorithms/J-Binary-Search-Trees/intro-to-bst)                                                                                                                                                                      | Lab 6 (Due: Nov. 26, 2023) - ~1.67%   |
+| week 10    | [Heaps, Heapsort](https://seneca-ictoer.github.io/data-structures-and-algorithms/I-Heaps/intro-to-heaps)                                                                                                                                                                                      | Lab 5 - ~1.67%    |
+| week 11    | [Binary search trees](https://seneca-ictoer.github.io/data-structures-and-algorithms/J-Binary-Search-Trees/intro-to-bst)                                                                                                                                                                      | Lab 6 - ~1.67%   |
 | week 12    | [Augmented data structures](https://seneca-ictoer.github.io/data-structures-and-algorithms/K-Augmented-Data-Structures/intro-to-augmented-data-structures)                                                                                                                                    | A3 - 8%                               |
 | week 13    | [Augmented data structures](https://seneca-ictoer.github.io/data-structures-and-algorithms/K-Augmented-Data-Structures/intro-to-augmented-data-structures),[Complexity theory](https://seneca-ictoer.github.io/data-structures-and-algorithms/M-Complexity-Theory/intro-to-complexity-theory) | Lab 7 (Due: Dec. 3, 2023)- ~ 1.67% , Final Test (See your section's specific addenda for actual date)|
 | week 14    |  Final Test (See your section's specific addenda for actual date)                                                                                                                                                                                                                                                                                     | Final Test - 30%                      |
