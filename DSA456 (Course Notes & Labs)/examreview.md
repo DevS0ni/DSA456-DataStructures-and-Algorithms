@@ -1,8 +1,6 @@
 ## Exam Review Questions
 
-**1.** 
-
-Given a relatively balanced binary search tree, why is the search() function O(log n)?
+**1.** Given a relatively balanced binary search tree, why is the search() function O(log n)?
 
 **2.** 
 
