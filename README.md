@@ -5,15 +5,24 @@ This repository contains all of my code programs and work which I performed in t
 - Assignments & Projects (#3)
 
 ----------------------------------------
-Course Information
+Course Description
 ----------------------------------------
 After successful completion of this course, it helped me to...
 
 ```
   * From gaining a basic/ fundamental knowledge to become quick and efficient in the Data Structures & Algorithms
-    with Python Programming.
-  * Gain a handsome knowledge on all of the procedural & object-oriented aspects of C++ programming namely-
-     - Intro to C++ Programming.
+    with *Python Programming*.
+  * This is a course on Algorithms and Data Structures commonly used in computer programs.
+  * This course helps to learn how these classical data structures and algorithms operate.
+  * This course helps anyone able to learn the theoretical basis for the performance of these
+    algorithms and data structures.
+  * This course helps to learn how to implement these data structures and algorithms and apply
+    them to real programming problems. Students will also learn how these data structures are used
+    to implement parts of the standard language libraries.
+  * Furthermore, the course also introduces to computational theory and provide a fundamental background
+    to computer science concepts.
+  * Gain a handsome knowledge on all of the topics of Data Structures & Algorithms namely-
+     - Intro to Data Structures & Algorithms.
      - Difference between Procedural aspects & Object-Oriented Programming.
      - Difference between C & C++.
      - Advantages of OOP & Applications of OOP based language.
