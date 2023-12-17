@@ -1,11 +1,5 @@
 ## Repo Creation for Groups of 2:
 
-### Video Instructions:
-
-https://youtu.be/xqiNw5g5pqk
-
-
-
 ### Written Instructions:
 When setting up your repo please name your team as follows:
 
