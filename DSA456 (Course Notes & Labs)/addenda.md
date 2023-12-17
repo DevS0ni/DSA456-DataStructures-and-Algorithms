@@ -26,11 +26,6 @@ In order to pass DSA456 you must:
 
 * Satisfactorily complete all assignments (Each assignment will have a clearly stated list of things tasks required in order for the assignment to be considered complete. You must fully meet these requirements for the assignment to be considered complete).
 * Achieve a grade of 50% or better on the weighted average of the tests and final assessment. 
-* Grading Policy: http://www.senecacollege.ca/about/policies/grading-policy.html)
-
-## Academic Policy:
-
-http://www.senecacollege.ca/about/policies/academics-and-student-services.html
 
 
 **PLEASE RETAIN THIS DOCUMENT FOR FUTURE EDUCATIONAL AND/OR EMPLOYMENT USE.**
