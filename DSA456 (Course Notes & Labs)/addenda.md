@@ -1,8 +1,8 @@
 DSA456 - Data Structures and Algorithms
 
 | Approved By | |
-|---|---|
-| | Kathy Dumanski, Chair, School of Software Design and Data Science |
+|---|
+| Kathy Dumanski, Chair, School of Software Design and Data Science |
 
 Please read this addendum to the general course outline carefully.  It is your guide to the course requirements and activities.
 
@@ -74,7 +74,7 @@ Unless otherwise stated, the links below are linked to the start of the chapter 
 | week 10    | [Heaps, Heapsort](https://seneca-ictoer.github.io/data-structures-and-algorithms/I-Heaps/intro-to-heaps)                                                                                                                                                                                      | Lab 5 - ~1.67%    |
 | week 11    | [Binary search trees](https://seneca-ictoer.github.io/data-structures-and-algorithms/J-Binary-Search-Trees/intro-to-bst)                                                                                                                                                                      | Lab 6 - ~1.67%   |
 | week 12    | [Augmented data structures](https://seneca-ictoer.github.io/data-structures-and-algorithms/K-Augmented-Data-Structures/intro-to-augmented-data-structures)                                                                                                                                    | A3 - 8%                               |
-| week 13    | [Augmented data structures](https://seneca-ictoer.github.io/data-structures-and-algorithms/K-Augmented-Data-Structures/intro-to-augmented-data-structures),[Complexity theory](https://seneca-ictoer.github.io/data-structures-and-algorithms/M-Complexity-Theory/intro-to-complexity-theory) | Lab 7 (Due: Dec. 3, 2023)- ~ 1.67% , Final Test (See your section's specific addenda for actual date)|
+| week 13    | [Augmented data structures](https://seneca-ictoer.github.io/data-structures-and-algorithms/K-Augmented-Data-Structures/intro-to-augmented-data-structures),[Complexity theory](https://seneca-ictoer.github.io/data-structures-and-algorithms/M-Complexity-Theory/intro-to-complexity-theory) | Lab 7 - ~ 1.67% , Final Test (See your section's specific addenda for actual date)|
 | week 14    |  Final Test (See your section's specific addenda for actual date)                                                                                                                                                                                                                                                                                     | Final Test - 30%                      |
 
 
