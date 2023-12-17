@@ -4,8 +4,6 @@ This assessment contains materials that may be subject to copyright and other in
 
 Modification, distribution or reposting of this document is strictly prohibited. Learners found reposting this document or its solution anywhere will be subject to the college’s Academic Integrity policy.
 
-
-## Due: November 19, 2023
 **The active part of the lab is done in person in lab.  You must be there in order to do the lab to get the marks for the lab as it is based on observations of what you did in the lab class.**
 
 **This lab has a two week due date as your prof may use part of the lab class to go over your test and you may not have enough time.  You must be present to do the second half of the lab if you have not finished it this week**
