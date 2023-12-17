@@ -23,7 +23,6 @@ After successful completion of this course, it helped me to...
     to computer science concepts.
   * Gained a handsome knowledge on all of the topics of Data Structures & Algorithms namely-
      - Intro to Data Structures & Algorithms.
-
      - Introduction to Python & Basics of Python.
         > Installation of Sublime Text & Documentations (Local Installation).
         > Basic Syntax of Python Programming Language.
@@ -39,7 +38,6 @@ After successful completion of this course, it helped me to...
         > Object-Oriented Concepts
            ~ Functions.
            ~ Classes & Objects.
-
      - Algorithm Analysis.
         > Intro to Algorithm Analysis.
         > Time & Memory Resources.
@@ -63,7 +61,6 @@ After successful completion of this course, it helped me to...
            ~ Assumptions
            ~ Analysis of Successful & Unsuccessful Search
         > How to do Algorithm Analysis in 5 Steps (Mathematical Function & Graphical Representations)
-
      - Recursion.
         > Intro to Recursion.
            ~ The Run Stack Time.
@@ -72,7 +69,6 @@ After successful completion of this course, it helped me to...
         > How does Recursion work?
         > Mathematical Function Representation of a Recursive Function.
         > Drawbacks of Recursion over Iteration.
-
      - Searching & Sorting Algorithms
         > Introduction
         > Searching & Sorting
@@ -91,7 +87,6 @@ After successful completion of this course, it helped me to...
            ~ Quick Sort Algorithm & Implementation.
            ~ Recursive Version of the Quick Sort with Implementation.
            ~ Updated Version of Insertion Sort & Partitioning Function.
-
      - Lists
         > Introduction to Lists.
         > Linked Lists
@@ -123,7 +118,45 @@ After successful completion of this course, it helped me to...
            ~ Increment and Decrement (++ and --)
            ~ Private Constructors
            ~ Putting everything together - Quick Recap
-     
+     - Tables
+        > Introduction to Tables (Table Operations)
+        > A Simple Implementation
+           ~ Insertion/ Update
+           ~ Remove & Search
+           ~ Drawbacks 
+        > Introduction to Hash Tables
+           ~ Hash Functions, Load Factor, Collisions
+           ~ The Pigeon Hole Principle
+        > Chaining & Linear Probing
+           ~ Examples - Worst Case Run Time & Avg. Case Run Time
+           ~ Linear Probing
+              Method I : Insertion, Searching & Removing
+              Method II : TombStoning - Insertion, Searching & Removal
+           ~ Quadratic Probing
+           ~ Double Hashing            
+     - Graphs
+        > Introduction to Graphs
+        > Components of Graphs (Vertices, Edges & Other Definitions)
+        > Representation (Adjacency Lists & Matrixes - Weights & Direction Variations)
+        > Dijkstra's Algorithm
+        > Minimum Spanning Tree (Kruskal's Algorithm & Prim's Algorithm)
+     - Trees
+        > Introduction to Trees & its implementations
+     - Introduction to Heaps & Priority Queues
+        > Binary Heaps & Heap Sort
+        > Binary Heap, Binary Tree & Complete Binary Tree
+        > Heap Order Property
+        > Insertion & Removal
+        > Heapify & Heap Sort
+           ~ Building a maxHeap in place
+     - Binary Search Trees
+        > Introduction to BST
+           ~ Insertion & Removal
+           ~ Traversals
+           ~ Depth First Traversals (preorder, inorder, postorder)
+           ~ Breadth-First Traversal
+        > BST implementaion - Class Declaration
+           ~ 
  ```
 ----------------------------------------
 Technologies & Tools Used for the Course
