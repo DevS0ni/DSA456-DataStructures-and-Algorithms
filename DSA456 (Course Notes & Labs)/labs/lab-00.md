@@ -1,13 +1,8 @@
 # Lab 0
 
-
 This assessment contains materials that may be subject to copyright and other intellectual property rights. 
 
 Modification, distribution or reposting of this document is strictly prohibited. Learners found reposting this document or its solution anywhere will be subject to the college’s Academic Integrity policy.
-
-
-## Due: September 17, 2023
-
 
 This lab is not worth any marks but it will let you set up your repository for your labs and get familiar with some of the tools that we will use. This lab will do the following:
 
@@ -52,8 +47,6 @@ Your lab and assignments will come with a check list that you can use to keep tr
 
 Note:  Currently codespaces may not yet be available. It should be available in the next couple of days.
 
-* [Video Instructions and Explanation](https://web.microsoftstream.com/video/c3f41f80-94d1-4c9f-9e58-604de47bb2bb)
-
 In this course, we will be turning on code spaces for your labs and assignments.  This means that you will be able to write and compile your program in the browser.  It also means that your computer doesn't have to be very good as the web browser is just a terminal into your code.  You will also be able to run this code space on devices like chromebooks making the code pretty much accessible anywhere.  Note, it is still recommended that you set up a local python dev environment.
 
 ### Task:
@@ -66,8 +59,6 @@ In this course, we will be turning on code spaces for your labs and assignments.
 * It may be useful to do things like walk away from the file for a day in a changed state and see what happens.. do you need to spin up new code space? Are changes present when you go back?  You want to be familiar with the retention rules... when in doubt, add, commit and push.
 
 ## How to submit a lab and verify that it passes testing
-
-[Video instructions](https://web.microsoftstream.com/video/499348a2-16e8-4a17-98fd-3f68c7d5c165)
 
 Your labs are set up to test your programs every time you update the source files in your lab repository.  Please follow instructions in your lab about which files to modify.  You can update the files as many times as you like until you are happy with the results.
 
