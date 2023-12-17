@@ -282,9 +282,7 @@ Draw the complete binary tree associated with the list.
 
 Make heap in place using the heapify algorithm on the list in part 13a to form a **min-heap**.  Draw the final heap and state the final list created from the heapify routine.  
 
-**16.**
-
-Given the following BST class declaration
+**16.** Given the following BST class declaration
 
 ```python
 class BST:
@@ -304,8 +302,52 @@ Write the BST class method:
 ```python
 def inorder_successor(self, value):
 ```
+
+```python
+
+# Solution-16:
+
+- BST class method `inorder_successor`:
+
+```python
+def inorder_successor(self, value):
+  node = self._search(self.root, value)
+  if node is None:
+      return None
+  if node.right is not None:
+      return self._find_min(node.right)
+  successor = None
+  current = self.root
+  while current is not None:
+      if value < current.value:
+          successor = current
+          current = current.left
+      elif value > current.value:
+          current = current.right
+      else:
+          break
+  return successor.value if successor else None
+
+def _search(self, node, value):
+  if node is None or node.value == value:
+      return node
+  if value < node.value:
+      return self._search(node.left, value)
+  return self._search(node.right, value)
+
+def _find_min(self, node):
+  while node.left is not None:
+      node = node.left
+  return node
+```
+
 This method returns the inorder successor of value. If there are no nodes with this value in the BST, or the node containing this value does not have an inorder succesor, this method should return None.
 
-**17.**
+**17.** Is it possible to write a program that can check for infinite loops?
 
-Is it possible to write a program that can check for infinite loops?
+```
+Soluton-17:
+It's impossible to write a program that can check for infinite loops in the general case - Halting problem.
+Due to the fact, undecidability of the halting problem, as proved by Alan Turing.
+No algorithm can exist that decides whether every possible program input will eventually halt.
+```
