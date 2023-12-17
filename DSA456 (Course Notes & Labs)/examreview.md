@@ -2,21 +2,43 @@
 
 **1.** Given a relatively balanced binary search tree, why is the search() function O(log n)?
 
-**2.** 
+```
+Solution-1:
+In a relatively balanced binary search tree, the search() function = O(log n)
+Because at each level of the tree, it eliminates half of the remaining nodes.
+The tree's balanced nature ensures a logarithmic search time.
+```
 
-Explain why you need a max_heap (biggest is at root, parent > children) for heap sort that sorts an array in ascending order (small to big)?
+**2.** Explain why you need a max_heap (biggest is at root, parent > children) for heap sort that sorts an array in ascending order (small to big)?
 
-**3.**
+```
+Solution-2:
+For heap sort to sort an array in ascending order using a max_heap,
+for that the array is first converted to a max-heap.
+Because the largest element (root) is swapped with the last element, and the heap property is then restored.
+The process repeats, resulting in ascending order.
+Max-heap allows efficient extraction of the maximum element.
+```
 
-If you were to implement a reverse phone directory (You enter a phone number to find a person), what data structure would you use for the table?
+**3.** If you were to implement a reverse phone directory (You enter a phone number to find a person), what data structure would you use for the table?
 
-**4.** 
+```
+Solution-3:
 
-Explain why search through a balanced Binary Search tree is O(log n)?
+A hash table would be suitable for implementing a reverse phone directory.
+The phone numbers could be hashed, and the corresponding values would be stored at the hashed index.
+```
 
-**5.** 
+**4.** Explain why search through a balanced Binary Search tree is O(log n)?
 
-Can you binary search a sorted linked list? Explain why or why not?
+```
+Solution-4:
+Searching through a balanced Binary Search Tree = O(log n)
+Because at each step, it divides the search space in half.
+This logarithmic behavior results from the balanced structure of the tree.
+```
+
+**5.** Can you binary search a sorted linked list? Explain why or why not?
 
 **6.** 
 
