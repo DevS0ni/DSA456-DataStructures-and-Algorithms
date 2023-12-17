@@ -21,7 +21,7 @@ After successful completion of this course, it helped me to...
     to implement parts of the standard language libraries.
   * Furthermore, the course also introduces to computational theory and provide a fundamental background
     to computer science concepts.
-  * Gain a handsome knowledge on all of the topics of Data Structures & Algorithms namely-
+  * Gained a handsome knowledge on all of the topics of Data Structures & Algorithms namely-
      - Intro to Data Structures & Algorithms.
 
      - Introduction to Python & Basics of Python.
@@ -74,6 +74,55 @@ After successful completion of this course, it helped me to...
         > Drawbacks of Recursion over Iteration.
 
      - Searching & Sorting Algorithms
+        > Introduction
+        > Searching & Sorting
+           ~ Linear Search.
+           ~ Performance of Linear Search.
+           ~ Binary Search.
+           ~ Preconditions of Binary Search.
+           ~ Algorithms for Search & Sort.
+        > Simple Sorts
+           ~ Bubble Sort Algorithm & Implementation.
+           ~ Selection Sort Algorithm & Implementation.
+           ~ Insertion Sort Algorithm & Implementation.
+        > Merge & Quick Sorts
+           ~ Merge Sort Algorithm & Implementation.
+           ~ Recursive Version of the Merge Sort with Implementation.
+           ~ Quick Sort Algorithm & Implementation.
+           ~ Recursive Version of the Quick Sort with Implementation.
+           ~ Updated Version of Insertion Sort & Partitioning Function.
+
+     - Lists
+        > Introduction to Lists.
+        > Linked Lists
+           ~ Typical Operations.
+           ~ Enhancements
+        > Lists & Linked Lists Implementations.
+           ~ Array Based Implementations (Advantages & Drawbacks)
+           ~ Linked Lists Implementations (Advantages & Drawbacks)
+           ~ Memory Requirements
+           ~ Implementation Concepts (Nodes & Iterators)
+        > Implementation List & Nodes.
+        > push_front & pop_front functions.
+           ~ Implementation of the functions with figurative explanations.
+        > Sentinal Nodes
+           ~ Modification
+           ~ Linked List Constructor with Sentinel Nodes with figurative explanation.
+        > Stacks-and-Queues
+           ~ Operations
+           ~ Applications
+           ~ Stack & Array & Linked List & Queue Implementations.
+           ~ 
+        > Iterators & implementation
+           ~ const_iterator vs iterator
+           ~ Iterator Functionality
+           ~ Default Constructors
+           ~ Friends
+           ~ begin()/cbegin() and end()/cend()
+           ~ Dereference (*)
+           ~ Increment and Decrement (++ and --)
+           ~ Private Constructors
+           ~ Putting everything together - Quick Recap
      
  ```
 ----------------------------------------
