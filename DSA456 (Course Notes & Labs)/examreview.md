@@ -4,6 +4,7 @@
 
 ```
 Solution-1:
+
 In a relatively balanced binary search tree, the search() function = O(log n)
 Because at each level of the tree, it eliminates half of the remaining nodes.
 The tree's balanced nature ensures a logarithmic search time.
@@ -13,6 +14,7 @@ The tree's balanced nature ensures a logarithmic search time.
 
 ```
 Solution-2:
+
 For heap sort to sort an array in ascending order using a max_heap,
 for that the array is first converted to a max-heap.
 Because the largest element (root) is swapped with the last element, and the heap property is then restored.
@@ -33,6 +35,7 @@ The phone numbers could be hashed, and the corresponding values would be stored 
 
 ```
 Solution-4:
+
 Searching through a balanced Binary Search Tree = O(log n)
 Because at each step, it divides the search space in half.
 This logarithmic behavior results from the balanced structure of the tree.
@@ -40,6 +43,13 @@ This logarithmic behavior results from the balanced structure of the tree.
 
 **5.** Can you binary search a sorted linked list? Explain why or why not?
 
+```
+Solution-5:
+
+Binary search cannot be efficiently performed on a sorted linked list.
+Binary search relies on random access to elements, which is not possible in a linked list.
+The time complexity would decrease to O(n) as you need to traverse the list linearly.
+```
 **6.** 
 
 Given the following declaration of a binary search tree:
@@ -64,6 +74,22 @@ def print_between(min, max):
 This function prints every value in the tree that is between min and max inclusive. 
 Function only visits a subtree where the values may be valid.
 
+```python
+# Solution-6:
+
+def print_between(self, min_val, max_val):
+    self._print_between(self.root, min_val, max_val)
+
+def _print_between(self, node, min_val, max_val):
+    if node is not None:
+        if min_val < node.value:
+            self._print_between(node.left, min_val, max_val)
+        if min_val <= node.value <= max_val:
+            print(node.value)
+        if node.value < max_val:
+            self._print_between(node.right, min_val, max_val)
+```
+
 **7.** Given the following declaration of a binary tree:
 ```python
 class BT:
@@ -84,18 +110,61 @@ def height(self):
 ```
 This method returns the height of the binary tree.
 
-**8.** 
+```python
+# Solution-7:
 
-Draw 7 circles and label them A, B, C, D, E, F, G.  Draw random arrows between these circles.  This will form a graph.
+def height(self):
+    return self._height(self.root)
+
+def _height(self, node):
+    if node is None:
+        return 0
+    left_height = self._height(node.left)
+    right_height = self._height(node.right)
+    return max(left_height, right_height) + 1
+```
+
+**8.** Draw 7 circles and label them A, B, C, D, E, F, G.  Draw random arrows between these circles.  This will form a graph.
   * draw out the adjacency matrix and the adjacency list that corresponds to the graph
 
-**8b.** 
+```
+Solution-8:
 
-Add some weights to your graph.  Using Dijkstra's algorithm, find the shortest path from A to every other node.
+--Adjacency Matrix
+      A B C D E F G
+    A 0 1 0 0 1 0 0
+    B 1 0 1 0 0 1 1
+    C 0 1 0 0 0 1 0
+    D 0 0 0 0 1 0 0
+    E 1 0 0 1 0 0 1
+    F 0 1 1 0 0 0 0
+    G 0 1 0 0 1 0 0
 
-**9.** 
+-- Adjacency List
+A: [B, E]
+B: [A, C, F, G]
+C: [B, F]
+D: [E]
+E: [A, D, G]
+F: [B, C]
+G: [B, E]
+```
 
-Draw a binary tree with at least 20 nodes and put in some random labels (numbers, letters, doesn't really matter as long as they are unique).
+**8b.** Add some weights to your graph.  Using Dijkstra's algorithm, find the shortest path from A to every other node.
+
+```
+Solution-8(B):
+
+A: 0
+B: 1
+C: 2
+D: 5
+E: 1
+F: 3
+G: 3
+```
+
+**9.** Draw a binary tree with at least 20 nodes and put in some random labels (numbers, letters, doesn't really matter as long as they are unique).
 
 Base on this tree:
 
@@ -105,23 +174,69 @@ Base on this tree:
   * height of the tree
   * depth of all leaf nodes
 
-**10.** 
+```
+Solution-9:
 
-Create a BST tree by adding the following numbers to these trees in the order given as:
+Leaf nodes: 10, 25, 35, 45, 62, 80
+
+Root node: 80
+
+Preorder: 80, 70, 60, 50, 40, 30, 20, 65, 62, 10, 25, 21, 22
+
+Postorder: 22, 21, 25, 10, 30, 40, 50, 62, 65, 20, 60, 70, 80
+
+Inorder: 10, 20, 21, 22, 25, 30, 40, 50, 60, 62, 65, 70, 80
+
+Breadthfirst: 80, 70, 60, 65, 50, 30, 40, 62, 10, 25, 21, 22, 20
+
+Height: 4
+
+Depth of leaf nodes:
+
+10: 3
+25: 3
+35: 2
+45: 2
+62: 2
+80: 1
+```
+
+**10.** Create a BST tree by adding the following numbers to these trees in the order given as:
 
 80, 70, 60, 50, 40, 30, 20, 10, 35, 45, 43
 
 Draw the result of each tree after an insertion.
 
+```
+Solution-10:
 
-**10b.** 
+      80
+     /  \
+    70   85
+   / \   / \
+  60 75 80  90
+ / \
+50  65
+     \
+     75
+```
 
-Remove these numbers from the tree formed in 10 in the order given as: 
+**10b.** Remove these numbers from the tree formed in 10 in the order given as: 
 
 10, 70, 40 
 
 Draw the result of each tree after a value is removed
 
+```
+Solution-10(B):
+After Removal 10-
+    80
+   /  \
+  70   85
+ / \   / \
+60 75 80  90
+
+```
 
 **11.**
 
