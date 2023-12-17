@@ -26,10 +26,6 @@ NOTE: **as this assignment is about implementing data structures, you are not al
 
 ## Repo Creation
 
-### Video instructions:
-
-https://youtu.be/xqiNw5g5pqk
-
 ### Written instructions
 In this assignment you can choose to work in a group of two or three.  You have until Nov 6 to create a team of your choosing and create your repo.  After this date, students not in a team will be teamed up together by their profs.  **Working alone is not an option.**  In general we will try not to make adjustments to teams that you put together but there may be situations where we have no other ways of placing every student into a team without making changes to existing teams.  Our preference will always be to add someone to a team rather than breaking a team up and thus a three person team is very unlikely to be altered where as a two person team may end up with an additional person (but we will try to avoid this).
 
