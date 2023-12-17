@@ -1,7 +1,7 @@
 # Lab 5 Reflection and Observations
 
 * Dev Soni
-* Ruslin
+* Carolina
 
 ## Heap Insertion
 
