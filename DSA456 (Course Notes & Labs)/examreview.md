@@ -306,8 +306,7 @@ def inorder_successor(self, value):
 ```python
 
 # Solution-16:
-
-- BST class method `inorder_successor`:
+# BST class method `inorder_successor`:
 
 ```python
 def inorder_successor(self, value):
