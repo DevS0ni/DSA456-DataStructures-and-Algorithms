@@ -4,8 +4,6 @@ This assessment contains materials that may be subject to copyright and other in
 
 Modification, distribution or reposting of this document is strictly prohibited. Learners found reposting this document or its solution anywhere will be subject to the college’s Academic Integrity policy.
 
-
-## Due: November 26, 2023
 ## Objective:
 
 - Learn how to deep watching a video.  When you watch technical videos, there will be terminology and ideas that are difficult to understand.  This lab will have you slowly watch a video and understand what is being said.
