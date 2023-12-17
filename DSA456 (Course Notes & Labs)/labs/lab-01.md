@@ -4,9 +4,6 @@ This assessment contains materials that may be subject to copyright and other in
 
 Modification, distribution or reposting of this document is strictly prohibited. Learners found reposting this document or its solution anywhere will be subject to the college’s Academic Integrity policy.
 
-
-## Due: September 17, 2023
-
 ## Objectives:
 
 * Learn the basics of Python programming
