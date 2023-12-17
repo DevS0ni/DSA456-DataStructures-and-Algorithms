@@ -191,7 +191,6 @@ After successful completion of this course, it helped me to...
      - Complexity-Theory
         > Undecidable Problems
         > P vs NP (P class Problems, NP class Problems, NP-Complete Problems, NP-Hard)
-
  ```
 ----------------------------------------
 Technologies & Tools Used for the Course
