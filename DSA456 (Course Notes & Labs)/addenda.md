@@ -1,7 +1,7 @@
 DSA456 - Data Structures and Algorithms
 
 | Approved By |
-|---|---|
+|---|
 | Kathy Dumanski, Chair, School of Software Design and Data Science |
 
 Please read this addendum to the general course outline carefully.  It is your guide to the course requirements and activities.
