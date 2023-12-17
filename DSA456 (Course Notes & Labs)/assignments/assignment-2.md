@@ -1,22 +1,6 @@
 # Assignment 2
 
-## Due Dates:
-
-* **Repo Creation Due: November 6**
-* **Assignment Due: November 20**
-
 ### This assignment is worth 12% of your final grade.
-
-### Late penalties
-
-#### Repo Creation
-
-* Repo Creation:  -5 marks per day
-
-#### Part A, B, C and D:
-
-* 10% for first week
-* 10% per day to max of 50% until December 5.  After December 5, -100%, but must be completed to pass course
 
 ### Assignment Completion
 
@@ -40,7 +24,7 @@ In this assignment we will:
 
 NOTE: **as this assignment is about implementing data structures, you are not allowed to make use of any python libraries or use built-in python data structures and functions unless specified.  If you are not sure, please ask your professor.  Any use a built-in libraries or functions without approval will result in having to redo the assignment with a grade penalty of -50%**
 
-## Repo Creation - Due: November 6
+## Repo Creation
 
 ### Video instructions:
 
