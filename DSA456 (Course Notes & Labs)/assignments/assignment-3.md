@@ -1,25 +1,6 @@
 # Assignment 3
 
-## Due Dates:
-
-* **Repo Creation Due: Nov 26**
-* **All parts due: December 10**
-
 ### This assignment is worth 8% of your final grade.  
-
-### Late penalties
-
-#### Repo Creation
-
-* Repo Creation:  -5 marks per day
-
-#### Everything else:
-
-
-* 10% per day until December 13
-* 100% after December 13
-* Reminder: Assignments MUST be completed in order to pass the course (even if it is worth 0.  See assignment completion section)
-
 
 ## Assignment Completion
 
