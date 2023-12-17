@@ -11,7 +11,7 @@ After successful completion of this course, it helped me to...
 
 ```
   * From gaining a basic/ fundamental knowledge to become quick and efficient in the Data Structures & Algorithms
-    with *Python Programming*.
+    with Python Programming.
   * This is a course on Algorithms and Data Structures commonly used in computer programs.
   * This course helps to learn how these classical data structures and algorithms operate.
   * This course helps anyone able to learn the theoretical basis for the performance of these
@@ -23,32 +23,58 @@ After successful completion of this course, it helped me to...
     to computer science concepts.
   * Gain a handsome knowledge on all of the topics of Data Structures & Algorithms namely-
      - Intro to Data Structures & Algorithms.
-     - Difference between Procedural aspects & Object-Oriented Programming.
-     - Difference between C & C++.
-     - Advantages of OOP & Applications of OOP based language.
-     - Introduction to three pillars of OOP - Polymorphism, Abstraction & Inheritance.
-     - A basic structure of a C++ program; objects of the standard input/ output stream - cin, cout & endl
-     - Classes & Objects, Access Modifiers of the class - public, protected & private.
-     - Revised topic from C such as:
-        * Control Logical Constructs(if...else, Nested if-else, Switch statements)
-        * Procedural aspect of C++ - Functions.
-        * Recursive Functions.
-        * Pointers.
-     - References & Alias, Dynamic Memory Allocation.  
-     - Constructors (Default & Parameterized) & Destructors.
-     - Copy Constructors & Assignment Operators.
-     - Function Overloading.
-     - Friend functions.
-     - Operator Overloading (Unary & Binary Overloading), Restrictions, Overloading & Exceptions.
-     - Polymorphism - Function Overriding & Overloading.
-     - Data Abstraction - Pure Virtual Function.
-     - Pure Virtual Functions/ Abstract Class.
-     - Generic Templates
-     - File Handling (read, write & append).
-     - Template Functions & Classes.
-     - Exceptional Handling (Try & Catch Block)
-     - Debugging Methods & Troubleshooting, Walkthroughs, Modular Aspects of Programming.
-     - Syntactic and Semantic Errors
+
+     - Introduction to Python & Basics of Python.
+        > Installation of Sublime Text & Documentations (Local Installation).
+        > Basic Syntax of Python Programming Language.
+        > Intrepreted vs Compiled Language.
+        > The Python Shell.
+        > Comments in Python, Basic types & Variables, Naming Conventions.
+        > Strings in Python (Formatted Strings)
+        > Numbers (Integer & Floating point) & Operators (Mathematical Expressions).
+        > Selective Constructs (if...else types)
+        > Boolean Expressions (Zero v/s Non-Zero & Lazy Evaluation)
+        > Lists & Dictionaries (lists assignments)
+        > Iterations (for & while loop constructs)
+        > Object-Oriented Concepts
+           ~ Functions.
+           ~ Classes & Objects.
+
+     - Algorithm Analysis.
+        > Intro to Algorithm Analysis.
+        > Time & Memory Resources.
+           ~ Measuring Resource Consumption (Time & Memory Resources)
+        > Types of Growth Rates (with Graphical Representation).
+           ~ Constant
+           ~ Logarithmic
+           ~ Linear & LogLinear
+           ~ Quadratic
+           ~ Cubic
+           ~ Exponential
+        > Asymptotic Notation.
+           ~ Formal & InFormal Representaions.
+           ~ Worst, Average & Best Cases.
+           ~ Understanding..
+              Big-O   [O(f(n))]
+              Omega   [Ω(f(n))]
+              Theta   [Θ(f(n))]
+              Small-O [o(f(n))]
+        > Analysis of Linear & Binary Search.
+           ~ Assumptions
+           ~ Analysis of Successful & Unsuccessful Search
+        > How to do Algorithm Analysis in 5 Steps (Mathematical Function & Graphical Representations)
+
+     - Recursion.
+        > Intro to Recursion.
+           ~ The Run Stack Time.
+        > How to write a Recursive Function.
+           ~ Factorial & Fibonacci Functions.
+        > How does Recursion work?
+        > Mathematical Function Representation of a Recursive Function.
+        > Drawbacks of Recursion over Iteration.
+
+     - Searching & Sorting Algorithms
+     
  ```
 ----------------------------------------
 Technologies & Tools Used for the Course
@@ -56,7 +82,7 @@ Technologies & Tools Used for the Course
 ```
 - Microsoft Visual Studio (Windows)
 - VS Code (Windows & Mac OSX)
-- Sublime Text Editor (Windows & Mac OSX)
+- Sublime Text (Windows & Mac OSX)
 - PyCharm IDE (Windows & Mac OSX)
 ```
 ----------------------------------------
