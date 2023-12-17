@@ -47,8 +47,8 @@ Technologies & Tools Used for the Course
 ```
 - Microsoft Visual Studio (Windows)
 - VS Code (Windows & Mac OSX)
-- Sublime Text Editor
-- PyCharm IDE
+- Sublime Text Editor (Windows & Mac OSX)
+- PyCharm IDE (Windows & Mac OSX)
 ```
 ----------------------------------------
 Academic Honesty/ Integrity Statement
