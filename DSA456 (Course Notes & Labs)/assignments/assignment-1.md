@@ -1,8 +1,5 @@
 # Assignment 1
 
-* **Repo Creation and Part A**
-* **Part B, C, D and E**
-
 ### This assignment is worth 10% of your final grade.  40 marks total
 
 ### Assignment Completion
