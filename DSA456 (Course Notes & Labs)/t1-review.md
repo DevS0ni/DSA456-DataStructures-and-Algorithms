@@ -10,6 +10,12 @@ def f1(number):
     return rc
 ```
 
+```
+Solution-1:
+
+The run time of the function f1 = constant.
+It has a fixed number of iterations (5) in the for loop, and the time complexity is O(1).
+```
 
 ## Q2:
 
@@ -25,6 +31,14 @@ def f1(n):
     return rc
 ```
 
+```
+Solution-2:
+
+The run time of the function f1 -> linear w.r.t n.
+The loop runs until i becomes greater than or equal to n, and it increments i by 2 in each iteration.
+Therefore, the time complexity is O(n).
+```
+
 ## Q3:
 
 Suppose that the function g1(n) has a run time of O(n) and g2(n) has a run time of O(n^2)  What is the run time of f1(n)?
@@ -33,6 +47,14 @@ Suppose that the function g1(n) has a run time of O(n) and g2(n) has a run time 
 def f1(n):
     g1(n)
     g2(n)
+```
+
+```
+Solution-3:
+
+The run time of the function f1 would be the maximum of the run times of g1(n) and g2(n).
+As in big-O notation, the time complexity would be O(max(O(n), O(n^2))), which simplifies
+to O(n^2) since O(n^2) dominates O(n).
 ```
 
 ## Q4:
@@ -48,11 +70,32 @@ the above function can be a wrapper to a function that actually does the work
 
 Try to write the function to O(n) run time where n is the length of s.
 
+```python
+# Solution-4:
+
+def is_palindrome(word):
+    if len(word) <= 1:
+        return True
+    elif word[0] != word[-1]:
+        return False
+    else:
+        return is_palindrome(word[1:-1])
+
+# This implementation has a time complexity = O(n), where n is length of the string word.
+```
 
 ## Q5:
 
 When using a singly linked list to implement a stack, is it better for insertions to occur at the front or back of the list (or does it matter)?  Why?
 
+```
+Solution-5:
+
+When using a singly linked list to implement a stack, insertions are typically better at the front of the list.
+This is because inserting at the front takes constant time (O(1)) as you only need to update the head pointer,
+while inserting at the back would require traversing the list to find the last node, resulting in a linear
+time complexity (O(n)).
+```
 
 ## Q6:
 
@@ -72,6 +115,11 @@ The following show a table of keys and the hash index of these keys within a tab
 
 Draw an empty array of size 10 that represents a linear probing table.
 
+```
+Solution-6(A):
+[_, _, _, _, _, _, _, _, _, _]
+```
+
 #### part b
 Insert the keys in the following order and show the final array:
 
@@ -82,22 +130,54 @@ Insert the keys in the following order and show the final array:
 * cherry
 * orange
 
+```
+Solution-6(B):
+[_, _, _, _, 'apple', 'cherry', 'beta', 'alpha', 'gamma', 'orange']
+```
 
 #### part c
 
 remove apple from table in part b, what does final array look like
 
+```
+Solution-6(C):
+[_, _, _, _, _, 'cherry', 'beta', 'alpha', 'gamma', 'orange']
+```
+
 #### part d
 
 remove beta from table in part c, what does final array look like
+
+```
+Solution-6(D):
+[_, _, _, _, _, 'cherry', _, 'alpha', 'gamma', 'orange']
+```
 
 #### part e
 
 If you used tombstones in the previous parts, redo this question (parts A to D) without tombstones.  If you did it without tombstones, redo this question (parts A to D)  with tombstones 
 
+```
+Solution-6(E):
+-- Without TombStones
+[_, _, _, _, _, 'cherry', _, 'alpha', 'gamma', 'orange']
+
+-- With TombStones
+[_, _, _, _, 'tombstone', 'cherry', _, 'alpha', 'gamma', 'orange']
+```
+
 ## Q7:
 
 Describe what you will need to implement a queue using an array such that you have O(1) runtimes for enqueue() and dequeue() operations.  Do this WITHOUT using code (ie what do you need, why do you need it, but don't just code dump)
+
+```
+Solution-7:
+
+For implementing a queue using an array with O(1) enqueue and dequeue operations,
+you would need to use a circular array (circular buffer) and maintain two pointers:
+one for the front and one for the back of the queue. This allows you to enqueue at
+the back and dequeue from the front with constant time complexity.
+```
 
 ## Q8:
 
@@ -116,6 +196,25 @@ class SelfAdjustingList:
 	def __init__(self, id_list):
                 self.front = ...
                 self.back = ...
+```
+
+```python
+# Solution-8:
+
+class SelfAdjustingList:
+    def search(self, v):
+        current = self.front
+
+        while current is not None:
+            if current.data == v:
+                # Move the found node to the front
+                # Adjust pointers accordingly
+                # ...
+
+                return True
+            current = current.next
+
+        return False
 ```
 
 Write the following function:
@@ -144,3 +243,12 @@ def do_something(str):
     return do_recursion(str, 0)
 ```
 
+```
+Solution-9:
+
+The time complexity of the do_something function -> O(n), where n is the length of the string str.
+Because, each recursive call processes one character of the string, and the function stops
+when curr reaches the length of the string.
+
+Each character is visited once, leading to a linear time complexity.
+```
