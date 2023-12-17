@@ -212,5 +212,3 @@ NOTE: For others, this repo can be a good reference, if someone wants to learn &
 understand the aspects of Data Structures with Python programming and it's topic
 but must not copy the work completed by me or included in this repo!
 ```
-
-
