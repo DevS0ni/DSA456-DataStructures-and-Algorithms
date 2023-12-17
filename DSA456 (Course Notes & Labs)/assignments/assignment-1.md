@@ -1,23 +1,9 @@
 # Assignment 1
 
-## Due Dates:
-
-* **Repo Creation and Part A Due: October 8**
-* **Part B, C, D and E Due: October 16**
+* **Repo Creation and Part A**
+* **Part B, C, D and E**
 
 ### This assignment is worth 10% of your final grade.  40 marks total
-
-### Late penalties
-
-#### Repo Creation and Part A
-
-* Repo Creation:  -5 marks per day
-* Part A: must be completed by due date for part A(no lates accepted).
-
-#### Part B, C, D and E:
-
-* 10% for first week
-* 10% per day to max of 50% until November 30.  After November 30, -100%, but must be completed to pass course
 
 ### Assignment Completion
 
@@ -25,7 +11,7 @@ In order for this assignment to be considered complete:
 
 * parts B, C and D must pass testing on github (Green check for each part in action tab)
 
-Note: Assignment completion is the minimum requirement for your assignment to be considered complete.  It does not mean you will receive full marks.
+Note: Assignment completion is the minimum requirement for your assignment to be considered complete. It does not mean you will receive full marks.
 
 **Assignment completion is mandatory to pass dsa456**
 
@@ -41,7 +27,7 @@ In this assignment we will:
 
 NOTE: **as this assignment is about implementing data structures, you are not allowed to make use of any python libraries or use built-in python data structures and functions unless specified.  If you are not sure, please ask your professor.  Any use a built-in libraries or functions without approval will result in having to redo the assignment with a grade penalty of -50%**
 
-## Repo Creation - Due: October 8
+## Repo Creation
 
 In this assignment you can choose to work in a group of two or three.  You have until September ?? to create a team of your choosing and create your repo.  After this date, students not in a team will be teamed up together by their profs.  **Working alone is not an option.**  In general we will try not to make adjustments to teams that you put together but there may be situations where we have no other ways of placing every student into a team without making changes to existing teams.  Our preference will always be to add someone to a team rather than breaking a team up and thus a three person team is very unlikely to be altered where as a two person team may end up with an additional person (but we will try to avoid this).
 
@@ -66,7 +52,7 @@ Every member of the team must submit a link to their assignment repo by the repo
   * **it is NOT ok to use email or have just one person commit all the code. git/github is a professional tool that employers expect our graduates to know how to use, so learn it now.  If you aren't sure, check out the git tutorial listed in the resources section in course repo.**
 * Team members that do not commit code for one of the coding components will not receive any credit for the assignment.  They will be removed from the group and will need to redo the entire assignment with late penalties.
 
-## Part A: Drawings (5 marks), Due October 8.   No late submissions accepted.
+## Part A: Drawings (5 marks)  No late submissions accepted.
 
 In your repository you will find two pdf file containing some diagrams.  Decide if you will implement your part B with or without the use of sentinel nodes and use the diagram file that matches your decision for Part A.
 
