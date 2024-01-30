@@ -1,9 +1,6 @@
 # Lab 7
 
 * Dev Soni - 130759210
-* Sarah Haque - 121172217
-* Jahnavi-169172210
-* Fenil Sureshbhai Patel-166749218
 
 ## Part A: BST Insert
 
